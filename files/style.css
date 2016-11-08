@@ -21,6 +21,10 @@ header img {
     float: right;
 }
 
+button:hover {
+    background-color: #777777;
+}
+
 a[href*="mspaforums.com"] {
     color: red !important;
     font-weight: bold;
@@ -39,11 +43,7 @@ div.img {
     transition: background-color 0.1s linear;
 }
 
-div.left {
-    margin-right: 20px;
-}
-
-div.right {
+div.img {
     margin-left: 20px;
 }
 
