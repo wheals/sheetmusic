@@ -1,0 +1,70 @@
+body {
+    background-color: #CCC;
+    font: 12px sans-serif;
+}
+
+#main {
+    margin: 10px 100px;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #AAA;
+    margin: 0 100px;
+    height: 300px;
+}
+
+header img {
+    margin: 20px;
+    float: right;
+}
+
+a[href*="mspaforums.com"] {
+    color: red !important;
+    font-weight: bold;
+}
+
+div.img {
+    background-color: #696969;
+    padding: 10px;
+    height: 80px;
+    width: 500px;
+    margin: 0px 0px 20px 20px;
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    -ms-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+}
+
+div.left {
+    margin-right: 20px;
+}
+
+div.right {
+    margin-left: 20px;
+}
+
+div.img p, div.img a, div.img ul {
+    display: none;
+    font: 10pt sans-serif;
+}
+
+div.img:hover {
+    background-color: #AAA;
+}
+
+div.open {
+    background-color: #AAA;
+    height: 100%;
+}
+
+div.open p, div.open ul {
+    display: block;
+}
+
+div.open a {
+    display: inline;
+}
