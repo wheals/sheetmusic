@@ -4,7 +4,7 @@ body {
 }
 
 #main {
-    margin: 10px 100px;
+    margin: 10px auto;
     width: 1100px;
     display: flex;
     flex-wrap: wrap;
@@ -43,13 +43,13 @@ div.img {
     transition: background-color 0.1s linear;
 }
 
-div.img {
-    margin-left: 20px;
-}
-
 div.img p, div.img a, div.img ul {
     display: none;
     font: 10pt sans-serif;
+}
+
+div.img img {
+    cursor: pointer;
 }
 
 div.img:hover {
