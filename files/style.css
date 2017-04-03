@@ -1,11 +1,13 @@
 body {
-    background-color: #CCC;
+    background-color: #535353;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 #main {
-    margin: 10px auto;
-    width: 95vw;
+    background-color: #7b7b7b;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 90vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -13,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #AAA;
+    background-color: #c6c6c6;
     margin: 0 auto;
     width: 90vw;
     padding: 20px;
@@ -21,7 +23,7 @@ header {
 }
 
 header img {
-    width: 50%;
+    width: 48.5%;
     padding-right: 3%;
 }
 
@@ -35,16 +37,11 @@ a[href*="mspaforums.com"], .missing {
 }
 
 div.img {
-    background-color: #696969;
+    background-color: #c6c6c6;
     padding: 10px;
     height: 80px;
     width: 45%;
     margin-bottom: 10px;
-    -webkit-transition: background-color 0.1s linear;
-    -moz-transition: background-color 0.1s linear;
-    -o-transition: background-color 0.1s linear;
-    -ms-transition: background-color 0.1s linear;
-    transition: background-color 0.1s linear;
 }
 
 div.img p, div.img a, div.img ul {
@@ -55,12 +52,7 @@ div.img img {
     cursor: pointer;
 }
 
-div.img:hover {
-    background-color: #AAA;
-}
-
 div.open {
-    background-color: #AAA;
     height: 100%;
 }
 
