@@ -5,19 +5,22 @@ body {
 
 #main {
     margin: 10px auto;
-    width: 1100px;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
 header {
     background-color: #AAA;
-    margin: 0 100px;
+    margin: 0 auto;
     height: 300px;
+    padding: 20px;
 }
 
 header img {
-    margin: 20px;
+    margin-left: 20px;
     float: right;
 }
 
@@ -34,8 +37,8 @@ div.img {
     background-color: #696969;
     padding: 10px;
     height: 80px;
-    width: 500px;
-    margin: 0px 0px 20px 20px;
+    width: 45%;
+    margin-bottom: 10px;
     -webkit-transition: background-color 0.1s linear;
     -moz-transition: background-color 0.1s linear;
     -o-transition: background-color 0.1s linear;
