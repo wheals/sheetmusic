@@ -1,6 +1,6 @@
 body {
     background-color: #CCC;
-    font: 12px sans-serif;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 #main {
@@ -48,7 +48,6 @@ div.img {
 
 div.img p, div.img a, div.img ul {
     display: none;
-    font: 10pt sans-serif;
 }
 
 div.img img {
