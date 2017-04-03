@@ -25,7 +25,7 @@ button:hover {
     background-color: #777777;
 }
 
-a[href*="mspaforums.com"] {
+a[href*="mspaforums.com"], .missing {
     color: red !important;
     font-weight: bold;
 }
