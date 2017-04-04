@@ -12,6 +12,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
+    border-radius: 0 0 5px 5px;
 }
 
 header {
@@ -20,6 +21,7 @@ header {
     width: 90vw;
     padding: 20px;
     display: flex;
+    border-radius: 5px;
 }
 
 header img {
@@ -42,6 +44,7 @@ div.img {
     height: 80px;
     width: 45%;
     margin-bottom: 10px;
+    border-radius: 3px;
 }
 
 div.img p, div.img a, div.img ul {
