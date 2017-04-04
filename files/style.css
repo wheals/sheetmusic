@@ -47,6 +47,10 @@ div.img {
     border-radius: 3px;
 }
 
+img {
+    border-radius: 3px;
+}
+
 div.img p, div.img a, div.img ul {
     display: none;
 }
