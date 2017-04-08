@@ -41,7 +41,6 @@ header div {
 
 a[href*="mspaforums.com"], .missing {
     color: red !important;
-    font-weight: bold;
 }
 
 div.img {
@@ -58,6 +57,11 @@ div.img:not(.new-style) {
 
 div.img.new-style {
     width: 438px; /* the flexbox takes care of any concerns about things not fitting :) */
+}
+
+div.img.new-style.open img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 img {
@@ -79,6 +83,7 @@ div.open {
 
 div.open p, div.open ul {
     display: block;
+    margin: 1em;
 }
 
 div.open a {
