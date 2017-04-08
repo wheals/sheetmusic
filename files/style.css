@@ -86,6 +86,10 @@ div.open p, div.open ul {
     margin: 1em;
 }
 
+div.open ul {
+    padding-left: 1em; /* space for the bullets that isn't massive */
+}
+
 div.open a {
     display: inline;
 }
