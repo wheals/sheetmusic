@@ -43,23 +43,15 @@ a[href*="mspaforums.com"], .missing {
     color: red !important;
 }
 
-div.img {
+.album {
     background-color: #c6c6c6;
     height: 80px;
     margin-bottom: 10px;
     border-radius: 3px;
-}
-
-div.img:not(.new-style) {
-    padding: 10px;
-    width: 45%;
-}
-
-div.img.new-style {
     width: 438px; /* the flexbox takes care of any concerns about things not fitting :) */
 }
 
-div.img.new-style.open img {
+.album.open img {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -68,28 +60,28 @@ img {
     border-radius: 3px;
 }
 
-div.img p, div.img a, div.img ul {
+.album p, .album a, .album ul {
     display: none;
 }
 
-div.img img {
+.album img {
     cursor: pointer;
     margin: 0 auto;
 }
 
-div.open {
+.open {
     height: 100%;
 }
 
-div.open p, div.open ul {
+.open p, .open ul {
     display: block;
     margin: 1em;
 }
 
-div.open ul {
+.open ul {
     padding-left: 1em; /* space for the bullets that isn't massive */
 }
 
-div.open a {
+.open a {
     display: inline;
 }
