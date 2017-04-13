@@ -1,70 +1,95 @@
 body {
-    background-color: #CCC;
-    font: 12px sans-serif;
+    margin: 0;
+    background-color: #535353;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+#wrapper {
+    width: 95vw;
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #7b7b7b;
 }
 
 #main {
-    margin: 10px auto;
-    width: 1100px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border-radius: 0 0 5px 5px;
 }
 
 header {
-    background-color: #AAA;
-    margin: 0 100px;
-    height: 300px;
+    background-color: #c6c6c6;
+    width: 100%;
+    display: flex;
+    border-radius: 0 0 5px 5px;
 }
 
 header img {
-    margin: 20px;
-    float: right;
+    width: 48.5%;
+    padding-right: 3%;
 }
 
-button:hover {
-    background-color: #777777;
+header div {
+    width: 49%;
+    padding-right: 1%;
 }
 
-a[href*="mspaforums.com"] {
+a[href*="mspaforums.com"], .missing {
     color: red !important;
-    font-weight: bold;
 }
 
-div.img {
-    background-color: #696969;
-    padding: 10px;
+.album {
+    background-color: #c6c6c6;
     height: 80px;
-    width: 500px;
-    margin: 0px 0px 20px 20px;
-    -webkit-transition: background-color 0.1s linear;
-    -moz-transition: background-color 0.1s linear;
-    -o-transition: background-color 0.1s linear;
-    -ms-transition: background-color 0.1s linear;
-    transition: background-color 0.1s linear;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    width: 438px; /* the flexbox takes care of any concerns about things not fitting :) */
 }
 
-div.img p, div.img a, div.img ul {
+.album.open img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+img {
+    border-radius: 3px;
+}
+
+.album p, .album a, .album ul {
     display: none;
-    font: 10pt sans-serif;
 }
 
-div.img img {
+.album img {
     cursor: pointer;
+    margin: 0 auto;
 }
 
-div.img:hover {
-    background-color: #AAA;
-}
-
-div.open {
-    background-color: #AAA;
+.open {
     height: 100%;
 }
 
-div.open p, div.open ul {
+.open p, .open ul {
     display: block;
+    margin: 1em;
 }
 
-div.open a {
+.open ul {
+    padding-left: 1em; /* space for the bullets that isn't massive */
+}
+
+.open a {
     display: inline;
+}
+
+.official {
+    font-weight: bold;
+}
+
+.comic-sans {
+    font-family: 'Comic Sans', 'Comic Sans MS', fantasy;
 }
