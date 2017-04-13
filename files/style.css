@@ -85,3 +85,11 @@ img {
 .open a {
     display: inline;
 }
+
+.official {
+    font-weight: bold;
+}
+
+.comic-sans {
+    font-family: 'Comic Sans', 'Comic Sans MS', fantasy;
+}
